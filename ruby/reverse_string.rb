@@ -1,5 +1,6 @@
 def reverse_string(str)
-  # type your code in here
+  string = str.split("").reverse.join("")
+  string
 end
 
 if __FILE__ == $PROGRAM_NAME
